@@ -1,0 +1,47 @@
+.footer {
+    background-color: white;
+    padding: 50px;
+    border-bottom: 5px solid #2827cc;
+  
+    &__main {
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      &-social {
+        display: flex;
+        justify-content: space-between;
+        &-icon {
+          width: 35px !important;
+          height: 35px !important;
+          margin: 5px;
+        }
+      }
+    }
+  }
+  
+  .footer h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .footer {
+      &__main {
+        justify-content: space-evenly;
+  
+        &-social {
+          display: flex;
+          justify-content: space-between;
+          &-icon {
+            width: 38px !important;
+            height: 38px !important;
+            margin: 8px;
+          }
+        }
+      }
+    }
+  }
+  
