@@ -31,6 +31,7 @@ const Footer = () => {
             className="footer__main-social-icon"
             target="_blank"
             url="https://www.facebook.com/profile.php?id=100010191737234"
+    
           />
         </div>
       </div>
